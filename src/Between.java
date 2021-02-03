@@ -10,20 +10,20 @@ import java.util.*;
             {
                 String odds = "";
                if (a < b) {
-                   int c = a;
+                   int temp = a;
                    for (int i = 1; i < b - a; i++) {
-                       c += 1;
-                       if (c % 2 == 1) {
-                           odds += c + " ";
+                       temp += 1;
+                       if (temp % 2 == 1) {
+                           odds += temp + " ";
                        }
                    }
                }
                else if (a > b){
-                   int c = a;
+                   int temp = a;
                    for (int i =1; 0 < i & i < a-b; i++) {
-                       c -= 1;
-                       if (c % 2 == 1) {
-                           odds += c + " ";
+                       temp -= 1;
+                       if (temp % 2 == 1) {
+                           odds += temp + " ";
                        }
                    }
 
